@@ -6,8 +6,9 @@ if(_pin==pin):
         print('''Welcome in our ATM App
 1.Balance Enquiry
 2.Cash Withdrawl
-3.Cash Deposite
-4.Exit''')
+3.Cash Deposit
+4.Money Transfer
+5.Exit''')
         choice=int(input("Please Enter your Choice:"))
         if(choice==1):
             print("Your Balance is:",balance)
